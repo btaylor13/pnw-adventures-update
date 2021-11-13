@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap CSS only - CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Additional CSS Styles-->
+    <!--Font Awesome Icons CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <!--Custom Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pacific Northwest Adventures</title>
+  </head>
+  <body>
+    <!--Navigation Bar w/ Bootstrap navbar-->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand brand-name" href="index.html"
+          ><img
+            class="logo-image"
+            src="images/potential-logo.png"
+            height="50"
+            width="50"
+          />
+          PNW Adventures</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#pnwNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pnwNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="adventures.html">Adventures</a>
+            </li>
+            <li class="nav-item active">
+              <a
+                style="color: #fb743e; font-weight: bold"
+                class="nav-link active"
+                href="yourguides.html"
+                >Guides</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header w/ Bootstrap Jumbotron-->
+    <header
+      class="jumbotron jumbotron-fluid header-background jumbotron-guides-page"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('/images/wilderness-image.jpg');
+        height: 80vh;
+      "
+    >
+      <div class="container header-background">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="jumbotron-main-header">Meet Your Guides</h1>
+            <h2 class="find-your-wild">local experts at your service</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Owners Section -->
+    <div class="team-section container-fluid mt-5 pb-5">
+      <div class="row">
+        <div class="team-section d-flex justify-content-center">
+          <div class="col-12 col-md-6 offset-md-1 justify-content-center">
+            <h2 class="pb-3">Meet the Team</h2>
+            <p>
+              Alex has ten years of experience in guiding outdoor adventures
+              ranging from multi-day camping and canoe trips to Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col-12 col-md-5 d-flex justify-content-center">
+            <img
+              class="team-photo"
+              src="images/alex-jared.jpg"
+              alt="The owners, Jared and Alex, standing under a tree with backpacking gear"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Alex Section-->
+    <div class="alex-section container-fluid mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center">
+          <img class="alex-pic" src="images/alex-profile.jpg" height="400" />
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="pb-3">Meet Alex</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Jared Section-->
+    <div class="jared-section container-fluid mt-5 pt-5 pb-5">
+      <div class="row">
+        <div class="col-md-6 col-12 offset-md-1">
+          <h2 class="pb-3">Meet Jared</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <div class="col-md-5 col-12 d-flex justify-content-center">
+          <img class="jared-pic" src="images/jared-profile.jpeg" height="400" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrap">
+        <div class="container first_class">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <h3>BE THE FIRST TO KNOW</h3>
+              <p>
+                Get monthly newsletters with upcoming adventures and be the
+                first to book your spot.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <form class="newsletter">
+                <input type="text" placeholder="Email Address" />
+                <button class="newsletter_submit_btn" type="submit">
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="col-md-12">
+                <div class="standard_social_links">
+                  <div>
+                    <li class="round-btn btn-facebook">
+                      <a href="https://facebook.com" target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+
+                    <li class="round-btn btn-twitter">
+                      <a href="https://twitter.com" target="_blank"
+                        ><i class="fab fa-twitter" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-instagram">
+                      <a href="https://instagram.com" target="_blank"
+                        ><i class="fab fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-envelop">
+                      <a href="mailto: pnwadventures@email.com" target="_blank"
+                        ><i class="fa fa-envelope" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-md-12">
+                <h3 style="text-align: right">Stay Connected</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--JavaScript-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JavaScript CDN Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

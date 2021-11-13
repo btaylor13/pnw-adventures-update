@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap CSS only - CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <!--Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Additional CSS Styles-->
+    <!--Font Awesome Icons CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!--Custom Style Sheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Pacific Northwest Adventures</title>
+  </head>
+  <body>
+    <!--Navigation Bar w/ Bootstrap navbar-->
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand brand-name" href="index.html"
+          ><img
+            class="logo-image"
+            src="images/potential-logo.png"
+            height="50"
+            width="50"
+          />
+          PNW Adventures</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#pnwNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="pnwNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="adventures.html">Adventures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yourguides.html">Guides</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item active">
+              <a
+                style="color: #fb743e; font-weight: bold"
+                class="nav-link"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header w/ Bootstrap Jumbotron-->
+    <header
+      class="jumbotron jumbotron-fluid jumbotron-contact-page header-background"
+    >
+      <div class="container header-background mb-0 pb-0">
+        <div class="col-12 col-md-5">
+          <h1 class="jumbotron-main-header">Contact Us</h1>
+          <h2 class="find-your-wild">we look forward to hearing from you.</h2>
+          <div class="contact-info-container pt-5">
+            <p style="font-size: 1.3rem; color: white">
+              <a
+                class="contact-link"
+                style="color: white"
+                href="mailto: pnwadventures@email.com"
+                >Email: pnwadventures@email.com</a
+              >
+            </p>
+            <p style="font-size: 1.3rem; color: white">
+              <a
+                class="contact-link"
+                style="color: white"
+                href="tel: 555-555-555"
+                >Phone: 555-555-555</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <!--Insert map here later???-->
+      </div>
+    </header>
+    <div class="d-flex"></div>
+    <div
+      class="
+        contact-container
+        container-fluid
+        col-9
+        pl-4
+        pr-4
+        pb-3
+        mb-3
+        text-align
+      "
+    >
+      <h5 class="pt-3">
+        Let us know what we can do to help you book your first adventure!
+        <br />You can choose from one of our
+        <a href="adventures.html" style="color: black">upcoming adventures</a>
+        or create your own personalized experience.
+      </h5>
+      <hr />
+      <!--Contact Form Starts Here-->
+      <form class="pt-2">
+        <!--First and Last Name Row-->
+        <div class="form-row">
+          <div class="form-group col-12 col-md-6">
+            <label for="firstName">First Name*</label>
+            <input
+              type="text"
+              id="firstName"
+              class="form-control"
+              placeholder="First name"
+            />
+          </div>
+          <div class="form-group col-12 col-md-6">
+            <label for="lastName">Last Name*</label>
+            <input
+              type="text"
+              id="lastName"
+              class="form-control"
+              placeholder="Last name"
+            />
+          </div>
+        </div>
+        <!--Email and Phone Number Row-->
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail">Email*</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPhoneNumber">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="inputPhoneNumber"
+              placeholder="Enter your phone number"
+            />
+          </div>
+        </div>
+        <!--Your Message Row-->
+        <div class="form-row">
+          <div class="form-group col-12">
+            <label for="inputMessage">Your Message*</label>
+            <textarea
+              class="form-control"
+              id="inputMessage"
+              rows="7"
+              placeholder="Your message here..."
+            ></textarea>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="
+            btn btn-secondary btn-lg
+            d-flex
+            justify-content-center
+            text-center
+            mb-3
+          "
+          style="
+            border-radius: 3rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+          "
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <!--Footer Section-->
+
+    <footer>
+      <div class="footer-wrap">
+        <div class="container first_class">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <h3>BE THE FIRST TO KNOW</h3>
+              <p>
+                Get monthly newsletters with upcoming adventures and be the
+                first to book your spot.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <form class="newsletter">
+                <input type="text" placeholder="Email Address" />
+                <button class="newsletter_submit_btn" type="submit">
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="col-md-12">
+                <div class="standard_social_links">
+                  <div>
+                    <li class="round-btn btn-facebook">
+                      <a href="https://facebook.com" target="_blank"
+                        ><i class="fab fa-facebook-f"></i
+                      ></a>
+                    </li>
+
+                    <li class="round-btn btn-twitter">
+                      <a href="https://twitter.com" target="_blank"
+                        ><i class="fab fa-twitter" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-instagram">
+                      <a href="https://instagram.com" target="_blank"
+                        ><i class="fab fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-envelope">
+                      <a href="mailto: pnwadventures@email.com" target="_blank"
+                        ><i class="fa fa-envelope" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-md-12">
+                <h3 style="text-align: right">Stay Connected</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--JavaScript-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JavaScript CDN Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.12.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    ></script>
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
