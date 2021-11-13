@@ -42,7 +42,7 @@
     />
 
     <!--Custom Style Sheet-->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Pacific Northwest Adventures</title>
   </head>
   <body>
@@ -61,8 +61,11 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#pnwNavbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#pnwNavbar"
+          aria-controls="#pnwNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -95,14 +98,13 @@
 
     <!--Header w/ Bootstrap Jumbotron-->
     <header
-      class="jumbotron jumbotron-fluid header-background jumbotron-guides-page"
+      class="jumbotron jumbotron-fluid header-background"
       style="
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.5)
           ),
-          url('/images/wilderness-image.jpg');
-        height: 80vh;
+          url('wilderness-image.jpg');
       "
     >
       <div class="container header-background">
